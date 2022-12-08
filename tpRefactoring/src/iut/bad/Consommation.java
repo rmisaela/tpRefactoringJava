@@ -10,4 +10,12 @@ public interface Consommation {
 	 * @param humain
 	 */
 	public void ami(Humain humain);
+	
+	/**
+	 * Indique une amitié entre 2 humains avec une autre paramètre durré de l'amitié
+	 * 
+	 * @param humain L'amie
+	 * @param durre_amitie La durée de l'amitié
+	 */
+	public void ami(Humain humain, int durre_amitie);
 }
