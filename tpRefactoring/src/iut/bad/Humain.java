@@ -50,4 +50,10 @@ public class Humain implements Consommation {
 		
 	}
 
+	@Override
+	public void ami(Humain humain) {
+		
+		
+	}
+
 }
