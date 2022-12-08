@@ -39,4 +39,11 @@ public class Humain {
 	public void details() {
 		System.out.println("Nom : "+ this.nom + "\nPrenom : "+ this.prenom + "\nAge : "+ this.age);
 	}
+
+	@Override
+	public String toString() {
+		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
+	}
+	
+	
 }
