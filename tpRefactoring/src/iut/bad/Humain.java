@@ -52,7 +52,11 @@ public class Humain implements Consommation {
 
 	@Override
 	public void ami(Humain humain) {
-		
+		ami(humain, 100);
+	}
+
+	@Override
+	public void ami(Humain humain, int durre_amitie) {
 		
 	}
 
