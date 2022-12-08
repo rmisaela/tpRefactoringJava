@@ -17,5 +17,10 @@ public class Homme extends Humain {
 	public Homme(String nom) {
 		super(nom);
 	}
+
+	@Override
+	public String toString() {
+		return "Homme [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
+	}
 	
 }
