@@ -24,5 +24,12 @@ public class Femme extends Humain {
 		return "Femme [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
 	
+	public void main() {
+		Homme homme = new Homme();
+		Femme femme = new Femme();
+		
+		homme.ami(femme);
+	}
+	
 	
 }
