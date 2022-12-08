@@ -37,6 +37,6 @@ public class Humain {
 	 * Affiche le nom, le prenon et l'age
 	 */
 	public void details() {
-		System.out.println("Nom : "+ this.nom + "\n Prenom : "+ this.prenom + "\n Age : "+ this.age);
+		System.out.println("Nom : "+ this.nom + "\nPrenom : "+ this.prenom + "\nAge : "+ this.age);
 	}
 }
