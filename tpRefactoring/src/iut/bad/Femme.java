@@ -1,6 +1,6 @@
 package iut.bad;
 
-public class Femme {
+public class Femme extends Humain {
 	
 	protected String nom;
 	protected String prenom;
