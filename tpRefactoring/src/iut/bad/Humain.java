@@ -40,5 +40,11 @@ public class Humain {
 		System.out.println("Nom : "+ this.nom + "\nPrenom : "+ this.prenom + "\nAge : "+ this.age);
 	}
 
+	public void manger() {
+		
+	}
 	
+	public void boire() {
+		
+	}
 }
