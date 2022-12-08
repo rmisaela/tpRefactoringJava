@@ -32,4 +32,11 @@ public class Humain {
 		this.prenom = "";
 		this.age = 3000;
 	}
+	
+	/**
+	 * Affiche le nom, le prenon et l'age
+	 */
+	public void details() {
+		System.out.println("Nom : "+ this.nom + "\n Prenom : "+ this.prenom + "\n Age : "+ this.age);
+	}
 }

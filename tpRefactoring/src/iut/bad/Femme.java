@@ -5,9 +5,18 @@ public class Femme extends Humain {
 	public Femme() {
 		super();
 		this.nom = "Eve";
-		this.prenom = "";
-		this.age = 3000;
 	}
-	
+
+	public Femme(String nom, String prenom, int age) {
+		super(nom, prenom, age);
+	}
+
+	public Femme(String nom, String prenom) {
+		super(nom, prenom);
+	}
+
+	public Femme(String nom) {
+		super(nom);
+	}
 	
 }
