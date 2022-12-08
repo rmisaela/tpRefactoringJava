@@ -1,6 +1,6 @@
 package iut.bad;
 
-public class Humain {
+public class Humain implements Consommation {
 	protected String nom;
 	protected String prenom;
 	protected int age;
@@ -40,11 +40,14 @@ public class Humain {
 		System.out.println("Nom : "+ this.nom + "\nPrenom : "+ this.prenom + "\nAge : "+ this.age);
 	}
 
+	@Override
 	public void manger() {
 		
 	}
-	
+
+	@Override
 	public void boire() {
 		
 	}
+
 }
